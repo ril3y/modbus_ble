@@ -1,0 +1,20 @@
+name: modbus_ble
+description: Transport-only building blocks for Modbus-RTU-over-BLE drivers - BLE link plumbing, Modbus RTU framing, and UUID normalization.
+version: 0.1.0
+publish_to: none
+repository: https://github.com/ril3y/modbus_ble
+topics: [bluetooth, ble, modbus, transport]
+
+environment:
+  sdk: ^3.13.5
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  universal_ble: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
